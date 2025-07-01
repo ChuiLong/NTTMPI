@@ -1,0 +1,335 @@
+
+纯MPI1进程
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=4 p=7340033 latency=0 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=7340033 latency=222.049 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=104857601 latency=226.538 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=469762049 latency=219.05 ms
+
+
+纯MPI 2进程
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=4 p=7340033 latency=1 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=7340033 latency=158.035 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=104857601 latency=149.108 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=469762049 latency=153.306 ms
+
+纯MPI 4进程
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=4 p=7340033 latency=1 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=7340033 latency=120.483 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=104857601 latency=119.027 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=469762049 latency=126.031 ms
+
+
+纯MPI 8进程
+C:\Users\86180\Downloads>mpiexec -n 8 .\mpi_omp_hello.exe
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=4 p=7340033 latency=1.001 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=7340033 latency=172.031 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=104857601 latency=181.545 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=469762049 latency=204.647 ms
+
+
+MPI+OMP baseline
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=4 p=7340033 latency=0 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=7340033 latency=222.049 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=104857601 latency=226.538 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=469762049 latency=219.05 ms
+
+MPI+OMP 2进程2线程
+Using 1 MPI processes with 2 OpenMP threads each
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=4 p=7340033 latency=0 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=131072 p=7340033 latency=113.185 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=131072 p=104857601 latency=102.139 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=131072 p=469762049 latency=106.012 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+
+MPI+OMP 2进程4线程
+Using 1 MPI processes with 4 OpenMP threads each
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=4 p=7340033 latency=0 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=131072 p=7340033 latency=77.089 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=131072 p=104857601 latency=90.919 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=131072 p=469762049 latency=77.217 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+MPI+OMP 2进程8线程
+Using 1 MPI processes with 8 OpenMP threads each
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=4 p=7340033 latency=2.002 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=131072 p=7340033 latency=71.63 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=131072 p=104857601 latency=71.003 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=131072 p=469762049 latency=72.016 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+
+
+
+
+MPI+OMP 4进程2线程
+Using 4 MPI processes with 2 OpenMP threads each
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=4 p=7340033 latency=1.003 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=7340033 latency=169.037 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=104857601 latency=172.024 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=469762049 latency=176.039 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+MPI+OMP 4进程4线程
+Using 4 MPI processes with 4 OpenMP threads each
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=4 p=7340033 latency=1 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=7340033 latency=135.038 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=104857601 latency=145.326 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=469762049 latency=148.034 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+MPI+OMP 4进程8线程
+Using 4 MPI processes with 8 OpenMP threads each
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=4 p=7340033 latency=1.001 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=7340033 latency=136.031 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=104857601 latency=134.013 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=469762049 latency=136.485 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+
+
+MPI+OMP 8进程2线程
+C:\Users\86180\Downloads>mpiexec -n 8 .\mpi_omp_hello.exe
+Using 8 MPI processes with 2 OpenMP threads each
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=4 p=7340033 latency=1 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=7340033 latency=310.167 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=104857601 latency=365.391 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=469762049 latency=302.949 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+
+
+MPI+OMP 8进程4线程
+Using 8 MPI processes with 4 OpenMP threads each
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=4 p=7340033 latency=1.003 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=7340033 latency=213.841 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=104857601 latency=251.057 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=469762049 latency=247.055 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+
+MPI+OMP 8进程8线程
+Using 8 MPI processes with 8 OpenMP threads each
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: Local) : n=4 p=7340033 latency=1.998 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=7340033 latency=260.214 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=104857601 latency=309.078 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP (strategy: MPI) : n=131072 p=469762049 latency=294.058 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+
+
+MPI+OMP+SIMD baseline
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=4 p=7340033 latency=0 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=7340033 latency=222.049 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=104857601 latency=226.538 ms
+澶氶」寮忎箻娉曠粨鏋滄纭?
+MPI  : n=131072 p=469762049 latency=219.05 ms
+
+
+MPI+OMP+SIMD 2进程2线程
+MPI 2  OpenMP 2  AVX2 1
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=4 p=7340033 latency=1 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=131072 p=7340033 latency=73.926 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=131072 p=104857601 latency=79.018 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=131072 p=469762049 latency=72.003 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+
+MPI+OMP+SIMD 2进程4线程
+MPI 2  OpenMP 4  AVX2 1
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=4 p=7340033 latency=0.999 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=131072 p=7340033 latency=58 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=131072 p=104857601 latency=54.164 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=131072 p=469762049 latency=54.104 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+MPI+OMP+SIMD 2进程8线程
+MPI 2  OpenMP 8  AVX2 1
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=4 p=7340033 latency=2.001 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=131072 p=7340033 latency=52.005 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=131072 p=104857601 latency=54.006 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=131072 p=469762049 latency=45.438 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+
+MPI+OMP+SIMD 4进程2线程
+MPI 4  OpenMP 2  AVX2 1
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=4 p=7340033 latency=0 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=7340033 latency=99.028 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=104857601 latency=90.002 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=469762049 latency=97.02 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+MPI+OMP+SIMD 4进程4线程
+MPI 4  OpenMP 4  AVX2 1
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=4 p=7340033 latency=1.001 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=7340033 latency=96.873 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=104857601 latency=97.215 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=469762049 latency=103.183 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+MPI+OMP+SIMD 4进程8线程
+MPI 4  OpenMP 8  AVX2 1
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=4 p=7340033 latency=0.999 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=7340033 latency=94.009 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=104857601 latency=86.095 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=469762049 latency=91.02 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+
+
+MPI+OMP+SIMD 8进程2线程
+MPI 8  OpenMP 2  AVX2 1
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=4 p=7340033 latency=1.001 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=7340033 latency=159.035 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=104857601 latency=148.541 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=469762049 latency=153.038 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+MPI+OMP+SIMD 8进程4线程
+MPI 8  OpenMP 4  AVX2 1
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=4 p=7340033 latency=0 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=7340033 latency=187.485 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=104857601 latency=185.042 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=469762049 latency=181.041 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
+MPI+OMP+SIMD 8进程8线程
+MPI 8  OpenMP 8  AVX2 1
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: Local) : n=4 p=7340033 latency=1.998 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/0.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=7340033 latency=139.026 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/1.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=104857601 latency=124.035 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/2.out
+澶氶」寮忎箻娉曠粨鏋滄纭?
+Adaptive MPI+OpenMP+AVX2 (strategy: MPI) : n=131072 p=469762049 latency=126.156 ms
+Failed to open C:/Users/86180/Downloads/nttdata/files/3.out
